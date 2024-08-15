@@ -4,9 +4,7 @@ type-annotated function
 '''
 
 
-import string
-
-
-def concat(str1: string, str2: string) -> string:
-    """concatenate to string"""
-    return str1 + str2
+def concat(str1: str, str2: str) -> str:
+    '''function that concats two strings
+    '''
+    return (str1 + str2)
